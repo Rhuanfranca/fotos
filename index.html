@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum de Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Álbum de Fotos Profissional</h1>
+    </header>
+    <section class="gallery">
+        <div class="photo" onclick="openPhoto('img1.jpeg')">
+            <img src="img1.jpeg" alt="Foto 1">
+        </div>
+        <div class="photo" onclick="openPhoto('img2.jpeg')">
+            <img src="img2.jpeg" alt="Foto 2">
+        </div>
+        <div class="photo" onclick="openPhoto('img3.jpeg')">
+            <img src="img3.jpeg" alt="Foto 3">
+        </div>
+        <div class="photo" onclick="openPhoto('img4.jpeg')">
+            <img src="img4.jpeg" alt="Foto 4">
+        </div>
+        <div class="photo" onclick="openPhoto('img5.jpeg')">
+            <img src="img5.jpeg" alt="Foto 5">
+        </div>
+        <div class="photo" onclick="openPhoto('img6.jpeg')">
+            <img src="img6.jpeg" alt="Foto 6">
+        </div>
+        <div class="photo" onclick="openPhoto('img7.jpeg')">
+            <img src="img7.jpeg" alt="Foto 7">
+        </div>
+        <div class="photo" onclick="openPhoto('img8.jpeg')">
+            <img src="img8.jpeg" alt="Foto 8">
+        </div>
+        <div class="photo" onclick="openPhoto('img9.jpeg')">
+            <img src="img9.jpeg" alt="Foto 9">
+        </div>
+    </section>
+
+    <div id="photoModal" class="modal">
+        <span class="close" onclick="closePhoto()">&times;</span>
+        <img class="modal-content" id="photoInModal">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
